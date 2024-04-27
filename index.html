@@ -195,11 +195,11 @@
         </footer>
       </div>
       <button id="playPauseButton" onclick="togglePlayPause()">
-        <img id="playPauseIcon" src="play.png" alt="Play" />
+        <img id="playPauseIcon" class="glowing" src="play.png" alt="Play" />
       </button>
     </div>
     <script>
-      var audio = new Audio("mp3.mp3");
+      var audio = new Audio("main.mp3");
 
       function togglePlayPause() {
         var playPauseIcon = document.getElementById("playPauseIcon");
